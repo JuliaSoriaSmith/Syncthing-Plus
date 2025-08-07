@@ -1,4 +1,4 @@
-"""Config flow for syncthing integration."""
+"""Config flow for syncthing_plus integration."""
 
 from typing import Any
 

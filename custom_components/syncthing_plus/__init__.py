@@ -1,4 +1,4 @@
-"""The syncthing integration."""
+"""The syncthing_plus integration."""
 
 import asyncio
 import logging
