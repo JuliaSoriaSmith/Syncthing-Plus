@@ -1,10 +1,11 @@
 {
-  "domain": "syncthing",
-  "name": "Syncthing",
+  "domain": "syncthing_plus",
+  "name": "SyncthingPlus",
   "codeowners": ["@zhulik","@JSoriaSmith"],
   "config_flow": true,
   "documentation": "https://github.com/JuliaSoriaSmith/Syncthing-Plus",
   "iot_class": "local_polling",
   "loggers": ["aiosyncthing"],
-  "requirements": ["aiosyncthing==0.6.3"]
+  "requirements": ["aiosyncthing==0.6.3"],
+  "version": "2025.1.1"
 }
