@@ -7,5 +7,6 @@
   "iot_class": "local_polling",
   "loggers": ["aiosyncthing"],
   "requirements": ["aiosyncthing==0.6.3"],
-  "version": "2025.1.1"
+  "version": "2025.1.1",
+  "issue_tracker": "https://github.com/JuliaSoriaSmith/Syncthing-Plus"
 }
