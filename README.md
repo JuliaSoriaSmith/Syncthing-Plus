@@ -1,3 +1,5 @@
+![alt text](https://github.com/JuliaSoriaSmith/Syncthing-Plus/SyncthingPlusLogo.png "Logo")
+
 # Syncthing-Plus
 An addon to the existing Syncthing integration to home assistant  that adds a binary sensor to report the connection status of devices.
 This intergration is heavily based upon the existing Syncthing intergration by [@Zhulik](https://github.com/zhulik). 
