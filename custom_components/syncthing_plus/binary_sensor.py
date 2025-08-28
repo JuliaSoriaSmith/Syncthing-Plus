@@ -14,7 +14,7 @@ from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 from homeassistant.helpers.event import async_track_time_interval
 
-from .const import DOMAIN, SCAN_INTERVAL, SERVER_AVAILABLE, SERVER_UNAVAILABLE
+from .const import DOMAIN, SCAN_INTERVAL
 
 
 async def async_setup_entry(

@@ -19,7 +19,7 @@ from homeassistant.helpers.dispatcher import async_dispatcher_send
 
 from .const import DOMAIN, SCAN_INTERVAL,DEFAULT_VERIFY_SSL, DEFAULT_URL
 
-PLATFORMS = [Platform.BINARY_SENSOR, Platform.SENSOR]
+PLATFORMS = [Platform.BINARY_SENSOR]
 
 _LOGGER = logging.getLogger(__name__)
 
