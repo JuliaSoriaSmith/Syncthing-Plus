@@ -27,6 +27,8 @@ from .const import (
 
 PLATFORMS = [Platform.BINARY_SENSOR]
 
+
+
 _LOGGER = logging.getLogger(__name__)
 
 
