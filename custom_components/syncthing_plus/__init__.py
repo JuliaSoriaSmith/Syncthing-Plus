@@ -17,9 +17,15 @@ from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 
-from .const import DOMAIN, SCAN_INTERVAL,DEFAULT_VERIFY_SSL, DEFAULT_URL
+from .const import (
+    DOMAIN,
+    EVENTS,
+    RECONNECT_INTERVAL,
+    SERVER_AVAILABLE,
+    SERVER_UNAVAILABLE,
+)
 
-PLATFORMS = [Platform.BINARY_SENSOR]
+PLATFORMS = [Platform.BINARY_SENSOR, Platform.SENSOR]
 
 _LOGGER = logging.getLogger(__name__)
 
