@@ -17,9 +17,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 
-from const import (
-    DOMAIN
-)
+from .const import DOMAIN, SCAN_INTERVAL,DEFAULT_VERIFY_SSL, DEFAULT_URL
 
 PLATFORMS = [Platform.BINARY_SENSOR, Platform.SENSOR]
 
