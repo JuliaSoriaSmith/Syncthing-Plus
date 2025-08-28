@@ -74,6 +74,7 @@ async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     unload_ok = await hass.config_entries.async_unload_platforms(entry, PLATFORMS)
     if unload_ok:
         syncthing = hass.data[DOMAIN].pop(entry.entry_id)
+        _LOGGER.warning("The syncthing server '%s' is back online", syncthing.system.version())
         await syncthing.unsubscribe()
 
     return unload_ok

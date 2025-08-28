@@ -14,7 +14,7 @@ from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 from homeassistant.helpers.event import async_track_time_interval
 
-from .const import DOMAIN, SCAN_INTERVAL
+from .const import DOMAIN, SCAN_INTERVAL, SERVER_AVAILABLE, SERVER_UNAVAILABLE
 
 
 async def async_setup_entry(
@@ -24,6 +24,8 @@ async def async_setup_entry(
 ) -> None:
     """Set up Syncthing device connectivity binary sensors."""
     syncthing = hass.data[DOMAIN][config_entry.entry_id]
+
+    
 
     try:
         version = await syncthing.system.version()
