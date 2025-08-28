@@ -17,12 +17,8 @@ from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 
-from ..const import (
-    DOMAIN,
-    EVENTS,
-    RECONNECT_INTERVAL,
-    SERVER_AVAILABLE,
-    SERVER_UNAVAILABLE,
+from const import (
+    DOMAIN
 )
 
 PLATFORMS = [Platform.BINARY_SENSOR, Platform.SENSOR]
